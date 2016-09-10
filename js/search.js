@@ -7,7 +7,8 @@
 function __searchController() {
 	//http://localhost:8080/dcs/rest?dcs.source=indeed&query=data&results=10&dcs.algorithm=lingo&dcs.output.format=JSON&dcs.json.callback=
 	self = this;
-    var baseUrl = "http://localhost:8080/dcs/rest";
+    //var baseUrl = "http://localhost:8080/dcs/rest";
+    var baseUrl = "http://142.54.189.154:8080/dcs/rest";
     this.hitWebAjax = function(objData){
     	if(objData.val!=""){
             console.log(objData);
