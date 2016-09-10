@@ -55,7 +55,7 @@
 			   	 <div class="woz-clear"></div>
 			   	 <div class="woz-search-menu">
 				   	 <ul>
-					   	 <li class="woz-sm-activate" id="woz-search-all" st="web"><a href="#">ALL</a></li>
+					   	 <li class="woz-sm-activate" id="woz-search-all" st="bing-web"><a href="#">ALL</a></li>
 					   	 <li class="" id="woz-search-web" st="solr"><a href="#">WEB</a></li>
 					   	 <li class="" id="woz-search-news" st="news"><a href="#">NEWS</a></li>
 					   	 <li class="" id="woz-search-images" st="images"><a href="#">IMAGES</a></li>
