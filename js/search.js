@@ -171,7 +171,7 @@ function __searchController() {
 $(document).ready(function(){
 	var objSearchController = new __searchController();
 	$("body").on('keyup','#q',function(e){
-		var objData = {val:$.trim($("#q").val()),searchType:"web"};
+		 var objData = {val:$.trim($("#q").val()),searchType:$('.woz-sm-activate').attr('st')};
 		e.preventDefault();
 		if(e.keyCode==13){
 			objSearchController.hitWebAjax(objData);	
